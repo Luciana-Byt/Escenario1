@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Espacio 3 - Tierra, Luna y Sol</title>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Fondo negro -->
+      <a-sky color="#0e073f"></a-sky>
+
+      <a-plane position="0 0 -5" rotation="-90 0 0" width="5" height="5" color="#0c0733" shadow></a-plane>
+
+      <!-- Cilindro grande -->
+      <a-sphere position="0 1.5 -5" radius="1.5" color="green"></a-sphere>
+
+      <!-- Cilindros pequeño -->
+      <a-sphere position="-3 2 -5" radius="0.3" color="#e74d2b"></a-sphere> <!-- Sol  -->
+      
+      <!-- Cilindro pequeño -->
+      <a-sphere position="2 2 -5" radius="0.3" color="#d2d2a4"></a-sphere> <!-- Luna  -->
+      
+    </a-scene>
+  </body>
+</html>
